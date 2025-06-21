@@ -8,7 +8,7 @@ public class NoUnderMap : MonoBehaviour
 
     private void Awake()
     {
-        TryGetComponent<Rigidbody>(out _rb);
+        TryGetComponent(out _rb);
     }
 
     private void FixedUpdate()
